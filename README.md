@@ -1,6 +1,10 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1cdd0fb6-c0be-4744-a8c0-bb70798ae084">
+</p>
+
 # Previsão de Roupas com Rede Neural Convolucional
 
-Este repositório contém um projeto para prever categorias de roupas utilizando uma rede neural convolucional (CNN) com a base de dados Fashion MNIST. O código está escrito em Python e faz uso de bibliotecas populares de machine learning. O objetivo é criar e avaliar um modelo preditivo para classificar imagens de roupas em diferentes categorias.
+Este repositório contém um projeto para prever categorias de roupas utilizando uma rede neural convolucional (CNN) com a base de dados Fashion MNIST. O código está escrito em Python e faz uso de bibliotecas populares de machine learning. O objetivo é criar e avaliar sua eficiência em classificar imagens de roupas em diferentes categorias.
 
 ## Funcionalidades Implementadas
 
@@ -32,21 +36,21 @@ Este repositório contém um projeto para prever categorias de roupas utilizando
 ## Como Usar
 
 1. **Clone o repositório**:
-    - `git clone <URL do repositório>`
+    - git clone <URL do repositório>
 
 2. **Instale as dependências necessárias**:
-    - `pip install tensorflow numpy matplotlib scikit-learn`
+    - pip install tensorflow numpy matplotlib scikit-learn
 
-3. **Certifique-se de que os arquivos do modelo estão na pasta `modelTraining/`**:
-    - `model.json`
-    - `model.weights.h5`
+3. **Certifique-se de que os arquivos do modelo estão na pasta modelTraining/**:
+  - model.json
+  - model.weights.h5
 
 4. **Execute o script principal**:
-    - `python main.py`
+  - python main.py
     - O script carregará o modelo, realizará previsões sobre o conjunto de teste e exibirá a matriz de confusão e exemplos classificados de forma incorreta.
 
 5. **Modificações**:
-    - Sinta-se à vontade para modificar o código em utils.py e main.py para ajustar os parâmetros do modelo ou experimentar com diferentes conjuntos de dados.
+  - Sinta-se à vontade para modificar o código em functions.py e main.py para ajustar os parâmetros do modelo ou experimentar com diferentes conjuntos de dados.
 
 ## Contribuições
 
